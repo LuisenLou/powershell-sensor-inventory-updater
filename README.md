@@ -21,18 +21,7 @@ La obtención de los datos se hace mediante **escaneo de folios físicos**, que 
 
 ## Configuración
 
-1. **Rutas de carpetas y archivos**: Edita las variables del script para establecer las rutas correctas según tu entorno:
-
-```powershell
-$carpetaAbbott = "RUTA\A\CARPETA\ABBOTT"
-$carpetaDexcom = "RUTA\A\CARPETA\DEXCOM"
-
-$maestroCSV = "RUTA\AL\MAESTRO\ABBOTT.csv"
-$maestroCSVDexcom = "RUTA\AL\MAESTRO\DEXCOM.csv"
-
-$excelPath = "RUTA\A\EXCEL\SensoresAbbott.xlsx"
-$excelPathDexcom = "RUTA\A\EXCEL\SensoresDexcom.xlsx"
-
+1. **Rutas de carpetas y archivos**: Edita las variables del script en el archivo 'example' para establecer las rutas correctas según tu entorno.
 
 2. **Estructura de archivos:**: 
 
@@ -48,32 +37,17 @@ $excelPathDexcom = "RUTA\A\EXCEL\SensoresDexcom.xlsx"
 
 1. Abre PowerShell en modo Administrador si fuera necesario.
 
-```powershell
-$carpetaAbbott = "RUTA\A\CARPETA\ABBOTT"
-$carpetaDexcom = "RUTA\A\CARPETA\DEXCOM"
-
-$maestroCSV = "RUTA\AL\MAESTRO\ABBOTT.csv"
-$maestroCSVDexcom = "RUTA\AL\MAESTRO\DEXCOM.csv"
-
-$excelPath = "RUTA\A\EXCEL\SensoresAbbott.xlsx"
-$excelPathDexcom = "RUTA\A\EXCEL\SensoresDexcom.xlsx"
-
-
 2. Navega a la carpeta donde tengas el script:
-
 ```powershell
 cd "RUTA\DEL\SCRIPT"
-
-
+```
 
 3. Ejecuta el script:
-
 ```powershell
 .\ActualizadorSensores.ps1
-
+```
 
 4. El script mostrará ventanas de confirmación antes de actualizar cada archivo y antes de volcar datos a Excel.
-
 5. Una vez finalizado, mostrará un resumen final de unidades procesadas.
 
 ---
