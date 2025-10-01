@@ -21,7 +21,7 @@ La obtención de los datos se hace mediante **escaneo de folios físicos**, que 
 
 ## Configuración
 
-1. **Rutas de carpetas y archivos**: Edita las variables del script en el archivo 'example' para establecer las rutas correctas según tu entorno.
+1. **Rutas de carpetas y archivos**: Edita las variables del script en el archivo 'Config-Paths.example.ps1' para establecer las rutas correctas según tu entorno.
 
 2. **Estructura de archivos:**: 
 
@@ -44,7 +44,7 @@ cd "RUTA\DEL\SCRIPT"
 
 3. Ejecuta el script:
 ```powershell
-.\ActualizadorSensores.ps1
+.\Update-SensorInventory.ps1
 ```
 
 4. El script mostrará ventanas de confirmación antes de actualizar cada archivo y antes de volcar datos a Excel.
